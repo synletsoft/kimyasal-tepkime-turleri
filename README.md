@@ -1,0 +1,2 @@
+# kimyasal-tepkime-turleri
+
