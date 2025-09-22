@@ -19,6 +19,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.ResetGlobals,
 		C3.Plugins.System.Acts.RestartLayout,
 		C3.Plugins.System.Cnds.OnLayoutStart,
+		C3.Plugins.Sprite.Acts.SetX,
 		C3.Plugins.System.Acts.SetBoolVar,
 		C3.Plugins.Sprite.Acts.SetScale,
 		C3.Plugins.Sprite.Acts.SetVisible,
@@ -52,7 +53,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
 		C3.Behaviors.Tween.Acts.TweenTwoProperties,
 		C3.Plugins.Sprite.Acts.SetAnim,
-		C3.Plugins.Sprite.Acts.SetX,
 		C3.Plugins.System.Cnds.EveryTick,
 		C3.Plugins.Sprite.Acts.SetWidth,
 		C3.Plugins.System.Exps.loadingprogress,
@@ -94,6 +94,8 @@ self.C3_JsPropNameTable = [
 	{DragDrop: 0},
 	{damlalik: 0},
 	{damlalıkSıvı: 0},
+	{popup: 0},
+	{tepkimeText: 0},
 	{timeCount: 0},
 	{tersControl: 0},
 	{firstControl: 0},
@@ -134,5 +136,7 @@ self.InstanceType = {
 	tup: class extends self.ISpriteInstance {},
 	damla: class extends self.ISpriteInstance {},
 	damlalik: class extends self.ISpriteInstance {},
-	damlalıkSıvı: class extends self.ISpriteInstance {}
+	damlalıkSıvı: class extends self.ISpriteInstance {},
+	popup: class extends self.ISpriteInstance {},
+	tepkimeText: class extends self.ISpriteInstance {}
 }

@@ -1301,11 +1301,16 @@ self.C3_ExpressionFuncs = [
 		() => 0.3,
 		() => 1,
 		() => "https://x.com/home",
+		() => -250,
 		() => 0.5,
 		() => "",
 		p => {
 			const n0 = p._GetNode(0);
 			return () => n0.ExpObject();
+		},
+		p => {
+			const n0 = p._GetNode(0);
+			return () => n0.ExpInstVar();
 		},
 		() => 0.8,
 		() => "BetterOutline",
@@ -1315,8 +1320,7 @@ self.C3_ExpressionFuncs = [
 		() => 10,
 		() => 2,
 		() => "video1.mp4",
-		() => 45,
-		() => 1.33,
+		() => 75,
 		p => {
 			const n0 = p._GetNode(0);
 			const n1 = p._GetNode(1);
@@ -1332,10 +1336,6 @@ self.C3_ExpressionFuncs = [
 		p => {
 			const n0 = p._GetNode(0);
 			return () => (750 / (40 - n0.ExpObject()));
-		},
-		p => {
-			const n0 = p._GetNode(0);
-			return () => n0.ExpInstVar();
 		},
 		p => {
 			const n0 = p._GetNode(0);
