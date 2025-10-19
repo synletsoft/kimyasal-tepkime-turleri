@@ -96,6 +96,7 @@ self.C3_JsPropNameTable = [
 	{damlalıkSıvı: 0},
 	{popup: 0},
 	{tepkimeText: 0},
+	{Sprite2: 0},
 	{timeCount: 0},
 	{tersControl: 0},
 	{firstControl: 0},
@@ -138,5 +139,6 @@ self.InstanceType = {
 	damlalik: class extends self.ISpriteInstance {},
 	damlalıkSıvı: class extends self.ISpriteInstance {},
 	popup: class extends self.ISpriteInstance {},
-	tepkimeText: class extends self.ISpriteInstance {}
+	tepkimeText: class extends self.ISpriteInstance {},
+	Sprite2: class extends self.ISpriteInstance {}
 }
