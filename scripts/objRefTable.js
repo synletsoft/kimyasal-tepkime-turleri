@@ -141,6 +141,7 @@ self.C3_JsPropNameTable = [
 	{detailBtn2: 0},
 	{hucreBg3: 0},
 	{hucreBg4: 0},
+	{"HsudaOHsuda→H2Osıvı_": 0},
 	{kapak: 0},
 	{detail: 0},
 	{cubukControl: 0},
@@ -226,6 +227,7 @@ self.InstanceType = {
 	detailBtn2: class extends self.ISpriteInstance {},
 	hucreBg3: class extends self.ISpriteInstance {},
 	hucreBg4: class extends self.ISpriteInstance {},
+	__InvalidName0__: class extends self.ISpriteInstance {},
 	kapak: class extends self.ISpriteInstance {},
 	detail: class extends self.ISpriteInstance {}
 }
